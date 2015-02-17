@@ -1,0 +1,31 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+a{
+	color: rgba(0,0,0,1);
+}
+
+#main{
+	height:100%;
+	width: 100%;
+	text-align: center;
+}
+
+#main.ng-enter{
+  -webkit-animation: zoomIn .5s 1s backwards; /* Chrome, Safari, Opera */
+  animation: zoomIn .5s 1s backwards;
+}
+
+#main.ng-leave{
+  -webkit-animation: fadeOut 1s ; /* Chrome, Safari, Opera */
+  animation: fadeOut 1s ;
+}
+
+.face {
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 60px;
+  height: 60px;
+  margin: 16px;
+}

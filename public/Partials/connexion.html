@@ -1,0 +1,23 @@
+<div layout="column" layout-align="center center">
+	<md-content layout-fill>
+		<md-toolbar class="md-theme-light" >
+			<h1 class="md-toolbar-tools">
+				<span layout-align="center center">Bienvenue sur INCA</span>
+			</h1>
+		</md-toolbar>
+	</md-content>
+	<md-content>
+		<form>
+			<div class="column"  layout-align="center center">
+				<md-text-float  label="nom de compte" ng-model="username" class="long"> </md-text-float>
+				<md-text-float label="mot de passe" ng-model="password" class="long" type="password" > </md-text-float>
+				<div layout="row" layout-align="center center" layout-sm="row">
+					<md-button  class="md-button-colored" ng-click="submit()">se connecter</md-button>
+				</div>
+				<b layout-align="center center">
+					{{errorMessage}}
+				</b>
+			</div>
+		</form>
+	</md-content>
+</div>

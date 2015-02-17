@@ -1,0 +1,36 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="hugApp">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+	<title>INCA</title>
+	<meta name="author" content="Argentin Yvann" />
+
+	<link rel="stylesheet" href="./css/animate.css"><!-- stylesheet -->
+	<link rel="stylesheet" href="./css/style.css"><!-- stylesheet -->
+
+	<!-- Angulars Material CSS now available via Google CDN; version 0.6 used here -->
+    <link rel="stylesheet" href="./css/angular-material.min.css">
+</head>
+<body>
+	<!-- placeholder for the views -->
+	<div ng-view id="main" >
+	</div>
+
+	<!-- Angular Material Dependencies -->
+    <script src="./js/hammerjs/hammer.min.js"></script>
+	<script src="./js/angular/angular.min.js"></script><!-- load angular -->
+	<script src="./js/angular-route/angular-route.min.js"></script>
+    <script src="./js/angular-animate/angular-animate.min.js"></script>
+    <script src="./js/angular-aria/angular-aria.min.js"></script>
+
+    <!-- Angular Material Javascript now available via Google CDN; version 0.6 used here -->
+    <script src="./js/angular-material/angular-material.min.js"></script>
+
+    <!-- ANGULAR LOGIC -->
+	<script src="core.js"></script>
+</body>
+</html>

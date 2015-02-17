@@ -1,0 +1,53 @@
+<div layout="column" layout-fill>
+  <section layout="row" flex>
+
+  <!-- NAV BAR -->
+    <md-sidenav class="md-sidenav-left md-whiteframe-z1" md-component-id="left" md-is-locked-open="$media('gt-sm')">
+      <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Menu de navigation</h1>
+      </md-toolbar>
+      <md-content  ng-controller="LeftController">
+        <md-button ng-click="close()" class="md-primary" hide-gt-md>
+          Fermer le menu de navigation
+        </md-button>
+        <p hide-md show-gt-md layout="column">
+          <md-button href="#/rooms?unite=">rooms</md-button>
+          <md-button href="#/unites">unités</md-button>
+          <md-button href="#/deconnexion">se déconnecter</md-button>
+        </p>
+      </md-content>
+    </md-sidenav>
+    <!-- END NAV BAR -->
+
+    <!-- CONTENT LIST -->
+    <md-content class="full-height" flex  layout="column">
+    <section ng-repeat="type in typeIntervention">
+      <md-toolbar flex md-scroll-shrink layout="column">
+        <h1 class="md-toolbar-tools">
+          <span layout-align="center center"> type opération : {{type.infos.TITLE_TYPE}}</span>
+        </h1>
+      </md-toolbar>
+
+       <md-list>
+
+        <md-item ng-repeat="singleIntervention in type.interventions" class="list">
+
+          <md-item-content class='animate'>
+            <div class="md-tile-content">
+              <p>
+                <md-button href="#/interventions/patient/0"> {{singleIntervention.TITLE}} </md-button>
+              </p>
+            </div>
+          </md-item-content>
+          <md-divider inset></md-divider>
+        </md-item>
+
+      </md-list>
+    </section>
+
+
+    </md-content>
+    <!-- END CONTENT LIST -->
+
+  </section>
+</div>

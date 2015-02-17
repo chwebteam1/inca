@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"da",
+				"dataType"
+			],
+			[
+				"Inter",
+				"interventions"
+			],
+			[
+				"SUB",
+				"SUBTITLE1TYPE"
+			],
+			[
+				"PLANN",
+				"PLANNED_DATETIME_DISPLAY"
+			],
+			[
+				"type",
+				"typeIntervention"
+			],
+			[
+				"arra",
+				"arrayIds"
+			],
+			[
+				"idP",
+				"idPatient"
+			],
+			[
+				"act",
+				"actGrp"
+			],
+			[
+				"infos",
+				"infosAct"
+			],
+			[
+				"pati",
+				"patients"
+			],
+			[
+				"room",
+				"roomNb"
+			],
+			[
+				"idPa",
+				"idPatient2"
+			],
+			[
+				"idPatien",
+				"idPatient1"
+			],
+			[
+				"idBe",
+				"idBed2"
+			],
+			[
+				"inf",
+				"infosUnites"
+			],
+			[
+				"info",
+				"infosPatient"
+			],
+			[
+				"roo",
+				"roomsUnitsInfos"
+			],
+			[
+				"idB",
+				"idBed2"
+			],
+			[
+				"idBed",
+				"idBed1"
+			],
+			[
+				"patien",
+				"patientsInfos"
+			],
+			[
+				"rooms",
+				"roomsInfos"
+			],
+			[
+				"IdRo",
+				"IdRooms"
+			],
+			[
+				"json",
+				"jsonresult"
+			],
+			[
+				"unit",
+				"unitsrooms"
+			],
+			[
+				"xml",
+				"xmlinputfilepath"
+			],
+			[
+				"patient",
+				"patientNb"
+			],
+			[
+				"rout",
+				"routeParams"
+			],
+			[
+				"UNIT",
+				"UNIT_LIST"
+			],
+			[
+				"con",
+				"controllers"
+			],
+			[
+				"contro",
+				"controller"
+			],
+			[
+				"rig",
+				"RightController"
+			],
+			[
+				"ri",
+				"RightController"
+			],
+			[
+				"left",
+				"LeftController"
+			],
+			[
+				"user",
+				"userInfos"
+			],
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"connexi",
+				"connexionCtrl"
+			],
+			[
+				"temo",
+				"temoignage"
+			],
+			[
+				"site",
+				"siteURL"
+			],
+			[
+				"des",
+				"descProjet"
+			],
+			[
+				"Row",
+				"RowTables"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"socket",
+				"SocketClient"
+			],
+			[
+				"Combatt",
+				"Combattant1"
+			],
+			[
+				"id",
+				"idPersonnage"
+			],
+			[
+				"Re",
+				"RequeteBD"
+			],
+			[
+				"Pseudo",
+				"PseudoCo"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"A",
+				"Application"
+			],
+			[
+				"M",
+				"MonCompte"
+			],
+			[
+				"exp",
+				"expUp"
+			],
+			[
+				"Exp",
+				"Experience"
+			],
+			[
+				"get",
+				"getVie"
+			],
+			[
+				"ge",
+				"getPseudo"
+			],
+			[
+				"buffer",
+				"buffer_w"
+			],
+			[
+				"nick",
+				"nicknameSet"
+			],
+			[
+				"Clent",
+				"ClientAddr"
+			],
+			[
+				"Clien",
+				"ClientsList"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"usernam",
+				"usernameset"
+			],
+			[
+				"Cli",
+				"ClientsList"
+			],
+			[
+				"s",
+				"sizeof"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Yvann/Documents/programmation/systemes distribues/rest/commandes.txt",
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Controle",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/Partials/interventions.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/core.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/routes.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/server.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/Partials/unites.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/data/database.xml",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/data/UnitList.xml",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/data/UnitList.json",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/Partials/interventionlist.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/act.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/act_group.js",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/Partials/rooms.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/css/style.css",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/index.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/rooms.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/patients.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/beds.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/hug.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/units.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/unitsrooms.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/css/angular-material.css",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/handwritten.txt",
+		"/Users/Yvann/Documents/programmation/systemes distribues/rest/restsd.sublime-project",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/auth.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/Partials/deconnexion.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/Partials/connexion.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/package.json",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/users.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/app/models/todo.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/config/database.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/bootstrap/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/bootstrap/img/edition.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/bootstrap/img/graphisme.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/admin/accueil.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/realisations.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/exemple/css/component.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/exemple/css/default.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Celciusv2/exemple/index3.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/journal.php",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/nosprojets.html",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/bootstrap/css/style.css",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/User/Autoprefixer.sublime-settings",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/CSScomb/Default.sublime-keymap",
+		"/Users/Yvann/Library/Application Support/Sublime Text 2/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/Yvann/Documents/programmation/mean-io/travail de semestre/graphiques/vues/application flow [semestre].xml",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/bootstrap/js/general.js",
+		"/Users/Yvann/Documents/programmation/web/tp6/tp6.css",
+		"/Users/Yvann/Documents/programmation/web/tp6/script.js",
+		"/Users/Yvann/Documents/programmation/web/tp6/tp6.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/projetclient.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/include/fonctions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/admin/accueil.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/quisommesnous.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/admin/Contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/admin/picibi.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/admin/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/admin/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/admin/nosMarques.php",
+		"/Users/Yvann/Documents/cvut/web20/3 - Restfull URI operations/design.txt",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/views/users.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/views/index.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/js/services/UsersService.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/js/controllers/UsersCtrl.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/app/routes.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/app/models/users.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/app.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/views/home.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/core.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/cors.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/js/appRoutes.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/js/app.js",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/.bowerrc",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/public/js/app.js",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/server.js",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/public/views/user.html",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/public/js/controllers/UserCtrl.js",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/public/js/controllers/MainCtrl.js",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/bower.json",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/config/db.js",
+		"/Users/Yvann/Documents/programmation/mean-io/CRUD/package.json",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/index.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/home.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/users.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/package.json",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/userprovider-mongodb.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/bower.json",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/app.old.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/users.old.html",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/config/db.js",
+		"/Users/Yvann/Documents/programmation/mean-io/simple-crud/public/views/geek.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/routes/index.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/server/views/users.html",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/server/routes/index.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/nosservices.html",
+		"/Users/Yvann/Documents/cvut/web20/9/server.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/projetclient.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/journal.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/crayonoir/Nos_projets_le client.pdf",
+		"/Users/Yvann/Documents/programmation/high performance/hyperquick/hyperquick.cc",
+		"/Users/Yvann/Downloads/test.java",
+		"/Users/Yvann/Documents/programmation/systemes distribues/Servers/Tomcat v7.0 Server at localhost-config/web.xml",
+		"/Users/Yvann/Documents/programmation/systemes distribues/Servers/Tomcat v7.0 Server at localhost-config/context.xml",
+		"/Users/Yvann/Downloads/MyServlet/WebContent/WEB-INF/Accueil.jsp",
+		"/Users/Yvann/Downloads/MyServlet/WebContent/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/TP6/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/TP6/php/import.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/TP6/php/export.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/TP6/php/dumbdb.xml",
+		"/Users/Yvann/Downloads/hes.xml",
+		"/Applications/XAMPP/xamppfiles/htdocs/TP6/php/Imexport DB/example.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/TP6/php/Imexport DB/dbimexport.php",
+		"/Users/Yvann/Downloads/2014-11-11_09-39-43.xml",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/users.jade",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/layout.jade",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/routes/user.js",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/public/stylesheets/style.css",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/index.jade",
+		"/Users/Yvann/Documents/programmation/mean-io/mean-stack-skeleton/views/mp/layout.jade",
+		"/Users/Yvann/Documents/programmation/mean-io/myFirstProject/server.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"FEUILLE",
+			"BEBE",
+			" {\"",
+			"getInterventionsPatient",
+			"group",
+			"getTypeInterventionsPatient",
+			"getInte",
+			"in ",
+			"in",
+			"idActGroup",
+			"rooms",
+			"patients",
+			"beds",
+			"getInterventionsPatient",
+			"InterventionsPatientController",
+			"interventions",
+			"getInterventionsPatient",
+			"InterventionsPatientController",
+			"jsonToAray",
+			"400",
+			"params",
+			"); ",
+			"console.log",
+			"[]",
+			"zoomOut",
+			"zoomIn",
+			"fadeIn",
+			"console",
+			"hug",
+			"xml",
+			"xmk",
+			"factory",
+			"console.log",
+			"\"string\"",
+			"\"array\"",
+			"\"object\"",
+			"path",
+			"int",
+			"  ",
+			"\"",
+			"unites",
+			");\n",
+			"SEX",
+			"todo",
+			"type",
+			"id",
+			"\"",
+			"img",
+			"liste-categories",
+			"panneau",
+			"panneaux",
+			"bgvid",
+			"type=\"file\"",
+			"type=\"file",
+			".grid",
+			"padding",
+			"grid",
+			"footer",
+			"foo",
+			"	",
+			"\\n",
+			"article",
+			"seemore",
+			"Voir la suite",
+			"voir la suite",
+			"Parent",
+			"Parent$",
+			"Last",
+			"AddProjet",
+			"ContactFormAdmin",
+			"formContact",
+			"9",
+			"formData",
+			"scotchTodo",
+			"todo",
+			"dbUser",
+			"Todo",
+			"todos",
+			"nerd",
+			"Nerd",
+			"%>",
+			"<%",
+			"bkg-service",
+			"bkg-partenaire-1",
+			"encart-desc-service",
+			"bkg",
+			"no-top",
+			"form ul",
+			"form",
+			"h2",
+			"#menu",
+			"frequence",
+			"RowTables",
+			"GL_",
+			"glTexParameterfv",
+			"text-position",
+			".text-position",
+			"text-position",
+			"video",
+			"header",
+			"bgvid",
+			"article",
+			"input",
+			"fin",
+			"        }",
+			"fixed",
+			"nos services",
+			"ptinf",
+			"ligne",
+			"socket_serveur",
+			"socket",
+			"bkg.png",
+			"getId",
+			"input",
+			";",
+			"getPseudo",
+			"getLvl",
+			"Some",
+			"getClasseId",
+			"getClassId",
+			"crud",
+			"module",
+			"module.crud=${play.path}/modules/crud",
+			"background",
+			"getID",
+			"getClassId",
+			"insertP",
+			"insert"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"String",
+			"Array",
+			"Object",
+			"String /* int */",
+			"",
+			"unit",
+			"",
+			"	",
+			"$TAILLESUDOKU",
+			"MUser",
+			"user",
+			"dbUsers",
+			"dbUser",
+			"users",
+			"user",
+			"User",
+			"}}",
+			"{{",
+			"line",
+			"Line",
+			"Socket_serveur",
+			"RequeteBD",
+			"2014-05-24",
+			"*",
+			"WhosThere",
+			"possibilities"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Yvann/Documents/programmation/systemes distribues/rest/commandes.txt",
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"restsd.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Yvann/Documents/programmation/systemes distribues/rest/restsd.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true
+}
