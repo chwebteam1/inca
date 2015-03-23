@@ -1,0 +1,75 @@
+<div layout="column" layout-fill>
+  <section layout="row" flex>
+
+	<!-- NAV BAR -->
+    <md-sidenav class="md-sidenav-left md-whiteframe-z1" md-component-id="left" md-is-locked-open="$media('gt-sm')">
+      <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Menu de navigation</h1>
+      </md-toolbar>
+      <md-content  ng-controller="LeftController">
+        <md-button ng-click="close()" class="md-primary" hide-gt-md>
+          Fermer le menu de navigation
+        </md-button>
+        <p hide-md show-gt-md layout="column">
+          <md-button href="#/interventions/patient/{{patient.idUnite}}/{{patient.ID}}">Retour</md-button>
+          <md-button href="#/rooms?unite={{patient.idUnite}}">rooms</md-button>
+          <md-button href="#/unites">unités</md-button>
+          <md-button href="#/deconnexion">se déconnecter</md-button>
+        </p>
+      </md-content>
+    </md-sidenav>
+    <!-- END NAV BAR -->
+
+    <!-- CONTENT LIST -->
+    <div  layout-padding layout="column" layout-align="center center">
+		<form layout="column">
+			<div layout layout-sm="column">
+				<md-input-container >
+					<label>titre de l'intervention</label>
+					<input ng-model="intervention.title" >
+				</md-input-container>
+				<md-input-container >
+					<!-- Liste des types d'interventions possible -->
+					<label>Type d'intervention</label>
+					<input ng-model="intervention.type">
+				</md-input-container>
+			</div>
+
+			<div layout layout-sm="column">
+				<!-- DATETIME OF INTERVENTION -->
+				<md-input-container >
+					<label>Date de l'intervention</label>
+					<input placeholder="yyyy-mm-dd"  ng-model="intervention.date">
+				</md-input-container>
+				<md-input-container >
+					<label>Heure de l'intervention</label>
+					<input placeholder="hh:mm" ng-model="intervention.time_display">
+				</md-input-container>
+			</div>
+			<div layout layout-sm="column">
+				<!-- SUBTITLE OF INTERVENTION -->
+				<md-input-container >
+					<label>sous-titre 1</label>
+					<input  ng-model="intervention.subtitle1">
+				</md-input-container>
+				<md-input-container >
+					<label>sous-titre 2</label>
+					<input ng-model="intervention.subtitle2">
+				</md-input-container>
+			</div>
+			<div layout layout-sm="column">
+				<!-- SUBTITLE OF INTERVENTION -->
+				<label>information</label>
+				<textarea ng-model="intervention.information" columns="1" md-maxlength="150"></textarea>
+			</div>
+			<div>
+				<div layout="row" layout-align="center center" layout-sm="row">
+					<md-button  md-raised md-primary class="md-button-colored" ng-click="submit()">Ajouter l'intervention</md-button>
+				</div>
+			</div>
+		</form>
+    </div>
+    <!-- END CONTENT LIST -->
+
+  </section>
+</div>

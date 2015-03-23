@@ -1,6 +1,6 @@
 {
   "name"         : "INCA",
-  "version"      : "0.0.0",
+  "version"      : "0.1.0",
   "description"  : "App prototype for the HUG",
   "main"         : "server.js",
   "author"       : "Yvann Argentin",

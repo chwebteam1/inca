@@ -15,7 +15,6 @@ module.exports = mongoose.model('act', {
 	"COLOR" : String,
 	"IDS_DAL" : String,
 	"INFO_PART_LIST" : String,
-	"PLANNED_DATE" : String,
 	"INFORMATION" : String,
 	"INTERVENTION" : String,
 	"idActGroup" : String

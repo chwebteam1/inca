@@ -48,7 +48,7 @@
 								<INFO_PART TYPE="normal">diurèse horaire</INFO_PART>
 							</INFO_PART_LIST>
 							<PLANNED_DATE VALID_ANTICIP="10">5 août 2011</PLANNED_DATE>
-							<INFORMATION>&lt;b&gt;Relevé liquidiens&lt;/b&gt;  relevé hydrique et diurèse horaire</INFORMATION>
+							<INFORMATION>&lt; b &gt; Relevé liquidiens &lt; /b &gt;  relevé hydrique et diurèse horaire</INFORMATION>
 							<INTERVENTION ID="231600" LABEL="Bilans">
 								<INTERVENTION ID="131130" LABEL="Relevé liquidiens">
 									<INTERVENTION ID="103267" LABEL="Relevé liquidiens">
@@ -65,7 +65,7 @@
 								<INFO_PART TYPE="normal">d&amp;#39;enseignement structuré</INFO_PART>
 								<INFO_PART TYPE="normal">au patient, au sujet du</INFO_PART>
 								<INFO_PART TYPE="normal">traitement</INFO_PART>
-								<INFO_PART TYPE="normal">dès le 18/05/2011 15:25 </INFO_PART>
+								<INFO_PART TYPE="normal">dès le 18/05/2011 15:25</INFO_PART>
 							</INFO_PART_LIST>
 							<PLANNED_DATE VALID_ANTICIP="10">5 août 2011</PLANNED_DATE>
 							<INFORMATION>&lt;b&gt;Programme d&amp;#39;enseignement structuré&lt;/b&gt;  au patient, au sujet du traitement &lt;b&gt; dès le 18/05/2011 15:25&lt;/b&gt;</INFORMATION>
@@ -442,7 +442,7 @@
 							<RESERVE_LAST_COMPLETION_DATE_LIST LAST="2011-06-23 11:05">
 								<TODAY LABEL="aujourd'hui">
 									<RESERVE_VALIDATION DATE="2011-06-23 11:05" USR="nouser"/>
-								</TODAY>								
+								</TODAY>
 								<YESTERDAY LABEL="hiers">
 									<RESERVE_VALIDATION DATE="2011-06-22 16:28" USR="nouser"/>
 									<RESERVE_VALIDATION DATE="2011-06-22 16:26" USR="nouser"/>
@@ -454,7 +454,7 @@
 								<OLDER_THAN_THIS_WEEK LABEL="semaine précédante">
 									<RESERVE_VALIDATION DATE="2011-06-14 14:38" USR="paar"/>
 									<RESERVE_VALIDATION DATE="2011-06-14 14:37" USR="paar"/>
-								</OLDER_THAN_THIS_WEEK>																
+								</OLDER_THAN_THIS_WEEK>
 							</RESERVE_LAST_COMPLETION_DATE_LIST>
 							<INTERVENTION ID="231800" LABEL="Traitements">
 								<INTERVENTION ID="131290" LABEL="Sous-cutané">
@@ -463,7 +463,7 @@
 									</INTERVENTION>
 								</INTERVENTION>
 							</INTERVENTION>
-						</ACT>						
+						</ACT>
 						<ACT ID="1415447" TASK_ID="1191528" TITLE="acide acétylsalicylique" SUBTITLE_1="Aspégic sachet" SUBTITLE_2="pas de poids documenté" PLANNED_DATETIME="2011-08-05 08:00" PLANNED_DATETIME_DISPLAY="Sur 24H°°" ACT_STATUS_CODE="planned" TASK_STATUS_CODE="planned" RESERVE="true" TYPE="Traitements" COLOR="0xFF4400" IDS_DAL="104689">
 							<INFO_PART_LIST>
 								<INFO_PART TYPE="bold">acide acétylsalicylique</INFO_PART>

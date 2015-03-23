@@ -1,0 +1,39 @@
+<md-dialog ng-controller="popUpIntervention" aria-label="liste d'interventions">
+    <md-content>
+      <md-subheader class="md-sticky-no-effect">Liste des actions de type {{intervention.TYPE}}</md-subheader>
+
+      <section ng-repeat="intervention in listInterventions | orderBy : 'PLANNED_DATETIME_DISPLAY' ">
+        <md-toolbar flex md-scroll-shrink layout="column">
+          <h1 class="md-toolbar-tools">
+            <span layout-align="center center"> Heure d'éxecution : {{intervention.PLANNED_DATETIME_DISPLAY}} </span>
+            <img src="../img/cross.svg" class='cross right'  ng-click="answer({'id' : intervention.ID, 'action' : 1})" alt="supprimer l'intervention">
+          </h1>
+
+        </md-toolbar>
+        <md-list>
+          <md-item class="list">
+            <md-item-content class='animate'>
+              <div class="md-tile-content">
+                <h3>sous-titre</h3>
+                <p>
+                  {{intervention.SUBTITLE_1}}
+                  {{intervention.SUBTITLE_2}}
+                </p>
+                <h3>informations</h3>
+                <p ng-bind-html="intervention.INFORMATION">
+                </p>
+                <md-input-container flex>
+                  <label>Commentaire</label><br/>
+                  <textarea ng-model="intervention.comment" columns="1" md-maxlength="150"></textarea>
+                </md-input-container>
+                <br/>
+                <md-button ng-click="answer({'id' : intervention.ID, 'action' : 0, 'index' : $index})">Valider </md-button>
+              </div>
+            </md-item-content>
+            <md-divider inset></md-divider>
+          </md-item>
+        </md-list>
+      </section>
+
+    </md-content>
+</md-dialog>
