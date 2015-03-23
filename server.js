@@ -73,7 +73,8 @@ fs.readFile(xmlinputfilepath, "utf8", function (err, data) {
 
 		// store relations between rooms and units
 		for (room in jsonresult.UNIT_LIST[unites].ROOM){
-			DBunitsrooms.create({"IdUnit" : jsonresult.UNIT_LIST[unites].ID, "IdRoom" : jsonresult.UNIT_LIST[unites].ROOM[room].ID},function(){});
+			DBunitsrooms.create({"IdUnit" : jsonresult.UNIT_LIST[unites].ID,
+			"IdRoom" : jsonresult.UNIT_LIST[unites].ROOM[room].ID},function(){});
 			var infosRoom = jsonresult.UNIT_LIST[unites].ROOM[room];
 
 			// store rooms
@@ -121,18 +122,18 @@ fs.readFile(xmlinputfilepath, "utf8", function (err, data) {
 
 				for (actGrp = 0; actGrp < lstPatients.ACT_GROUP.length; actGrp++){
 					// store ACT_GROUP (type d'action)
-					
+					var  dataActGrp = lstPatients.ACT_GROUP[actGrp];
 					data = {
 						"ID" : idActGroup, // forging an ID for collection binding purpose
-						"PLANNED_DATETIME": lstPatients.ACT_GROUP[actGrp].PLANNED_DATETIME,
-						"PLANNED_DATETIME_DISPLAY": lstPatients.ACT_GROUP[actGrp].PLANNED_DATETIME_DISPLAY,
-						"VALID_ANTICIP": lstPatients.ACT_GROUP[actGrp].VALID_ANTICIP,
-						"TYPE": lstPatients.ACT_GROUP[actGrp].TYPE,
-						"TITLE": lstPatients.ACT_GROUP[actGrp].TITLE,
-						"SUBTITLE_1": lstPatients.ACT_GROUP[actGrp].SUBTITLE_1,
-						"SUBTITLE_2": lstPatients.ACT_GROUP[actGrp].SUBTITLE_2,
-						"COLOR": lstPatients.ACT_GROUP[actGrp].COLOR,
-						"RESERVE": lstPatients.ACT_GROUP[actGrp].RESERVE,
+						"PLANNED_DATETIME": dataActGrp.PLANNED_DATETIME,
+						"PLANNED_DATETIME_DISPLAY": dataActGrp.PLANNED_DATETIME_DISPLAY,
+						"VALID_ANTICIP": dataActGrp.VALID_ANTICIP,
+						"TYPE": dataActGrp.TYPE,
+						"TITLE": dataActGrp.TITLE,
+						"SUBTITLE_1": dataActGrp.SUBTITLE_1,
+						"SUBTITLE_2": dataActGrp.SUBTITLE_2,
+						"COLOR": dataActGrp.COLOR,
+						"RESERVE": dataActGrp.RESERVE,
 						"idPatient" : infosRoom.BED[bed].PATIENT.ID
 					}
 
@@ -190,9 +191,13 @@ fs.readFile(xmlinputfilepath, "utf8", function (err, data) {
 
 							DBact.create(data,function(){});
 
-							// I've implemented the extraction of the interventions but it isn't necessary for our application
-							// as we don't display them. Even so, the way interventions are stored in the xml file is "challenging"
-							// to retrieve which is why I wanted to demonstrate that it's possible.
+							/*
+							I've implemented the extraction of the interventions but 
+							it isn't necessary for our application as we don't display
+							them. Even so, the way interventions are stored in the xml 
+							file is "challenging" to retrieve which is why I wanted to
+							demonstrate that it's possible.
+							*/
 
 							var deeper = true;
 							var container = listActrGrp.ACT[act];
@@ -202,7 +207,8 @@ fs.readFile(xmlinputfilepath, "utf8", function (err, data) {
 							var idAct = 0; //init arbitrary value
 							data = {'idAct' : 'first'};
 
-							// iterates through all the interventions in all the acts in all the act groups of every patient of every unit
+							// iterates through all the interventions in all the 
+							// acts in all the act groups of every patient of every unit
 							while(deeper){
 
 								if(container.TASK_ID != idAct && container.TASK_ID !== undefined)
@@ -264,25 +270,28 @@ function seekIntervention(container, idAct){
 
 
 
-
-app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
+// set the static files location /public/img will be /img for users
+app.use(express.static(__dirname + '/public')); 
 
 // logs will be displayed like following
 // :method :url :status :response-time ms - :res[content-length]
 
-app.use(morgan('dev')); // log every request to the console with colored code
+// log every request to the console with colored code
+app.use(morgan('dev')); 
 
-// parse url UTF-8 only, will populate the request with an object body which will contain key-value pairs
+// parse url UTF-8 only, will populate the request 
+// with an object body which will contain key-value pairs
 app.use(bodyParser.urlencoded({'extended':'true'}));
 
-// parse json in url
-app.use(bodyParser.json()); // parse application/json
-app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
+// parse application/json
+app.use(bodyParser.json()); 
+// parse application/vnd.api+json as json
+app.use(bodyParser.json({ type: 'application/vnd.api+json' })); 
 app.use(methodOverride());
 
-// routes ======================================================================
+// routes =====================================================
 require('./app/routes.js')(app);
 
-// listen (start app with node server.js) ======================================
+// listen (start app with node server.js) =====================
 app.listen(port);
 console.log("App listening on port " + port);

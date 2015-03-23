@@ -16,7 +16,7 @@ var historic = require('./models/historic');
 // -------
 
 
-var detailledlogs = false;
+var detailledlogs = true;
 var badRequestError = 400;
 
 function jsonToArray(parsed){
@@ -57,8 +57,10 @@ module.exports = function(app) {
 			console.log("Default Page requested");
 
 		// return the infos of the user if the suername and password matches
-		var query  = hugUsers.where('username').equals(req.body.username).where('password').equals(req.body.password);
-		//var user = null;
+		var query  = hugUsers.where('username')
+		.equals(req.body.username)
+		.where('password').equals(req.body.password);
+
 		query.findOne(function (err, user) {
 			if (err) return handleError(err);
 			if (user) {
@@ -113,13 +115,15 @@ module.exports = function(app) {
 
 		var data = {};
 		// let's look for the id of the rooms of the unit
-		unitsrooms.find({IdUnit : req.query.ID}, function(err, roomsUnitsInfos) {
+		unitsrooms.find({IdUnit : req.query.ID}, 
+			function(err, roomsUnitsInfos) {
 			if (err) {
 				return res.status(badRequestError).end();
 			}
 
 			if(exist(roomsUnitsInfos[0])){
-				rooms.find({IdRoom : roomsUnitsInfos.ID} , function(err, roomsInfos) {
+				rooms.find({IdRoom : roomsUnitsInfos.ID} , 
+					function(err, roomsInfos) {
 					if (err) {
 						return res.status(badRequestError).end();
 					}
@@ -244,8 +248,8 @@ module.exports = function(app) {
 			if(err) return handleError(err);
 			if(data){
 				var idActGroup = data.idActGroup;
-			
-				query = act.findOneAndRemove(condition);
+
+				query = act.remove(condition);
 				query.exec(function(){
 					// now we need to check if the act_group is empty or not
 					// if it is we should erase it
@@ -295,10 +299,10 @@ module.exports = function(app) {
 
 		infoIntervention.ACT_STATUS_CODE = 'completed'; // act transferred to server
 
-
-		historic.create(infoIntervention,function(){ // callback will be used to delete the entry in the act collection
+		// callback will be used to delete the entry in the act collection
+		historic.create(infoIntervention,function(){ 
 			var condition = {'ID' : idAct};
-			var query = act.findOneAndRemove(condition);
+			var query = act.remove(condition);
 
 			query.exec(function(){
 				// now we need to check if the act_group is empty or not
@@ -433,10 +437,11 @@ module.exports = function(app) {
 
 		var actToAdd = req.body.act;
 		var idPatient = req.body.idPatient;
+		var type = req.body.act.type;
 		var planned_datetime = actToAdd.date + " " + actToAdd.time_display;
-		var condition = { 'idPatient' : idPatient, 'PLANNED_DATETIME' : planned_datetime};
+		var condition = { 'idPatient' : idPatient, 'PLANNED_DATETIME' : planned_datetime, 'TYPE' : type};
 		var query = act_group.find(condition);
-
+		
 		query.exec(function(err,actGrpCorrespond){
 			if(err)
 				res.send(err);
@@ -453,14 +458,15 @@ module.exports = function(app) {
 				var data = {
 					"ID" : idActGroup, // Forgind an ID for collection binding purposes
 					"PLANNED_DATETIME": planned_datetime,
-					"PLANNED_DATETIME_DISPLAY": actToAdd.time,
+					"PLANNED_DATETIME_DISPLAY": actToAdd.time_display,
 					"VALID_ANTICIP": 0, // default value
 					"TYPE": actToAdd.type,
 					"TITLE": actToAdd.title,
 					"SUBTITLE_1": actToAdd.subtitle1,
 					"SUBTITLE_2": actToAdd.subtitle2,
 					"COLOR": '#000000', // irrelevant
-					"RESERVE": "false", // false is the most common value for RESERVE (irrelevant for the project)
+					// false is the most common value for RESERVE (irrelevant for the project)
+					"RESERVE": "false", 
 					"idPatient" : idPatient
 				};
 
@@ -478,13 +484,15 @@ module.exports = function(app) {
 				"PLANNED_DATETIME_DISPLAY" : actToAdd.time_display,
 				"ACT_STATUS_CODE" : "planned",
 				"TASK_STATUS_CODE" : "planned",
-				"RESERVE" : "false", // false is the most common value for RESERVE (irrelevant for the project)
+				// false is the most common value for RESERVE (irrelevant for the project)
+				"RESERVE" : "false", 
 				"TYPE" : actToAdd.type,
 				"COLOR" : "#000000", // irrelevant
 				"IDS_DAL" : Math.floor((Math.random() * Date.now()) + 1), // random IDS_DAL => irrelevant
 				"INFO_PART_LIST" : "", // ireelevant
 				"INFORMATION" : actToAdd.information,
-				"INTERVENTION" : actToAdd.type, // should be filled with a list of interventions 1 x depth level, the first is the type
+				// should be filled with a list of interventions 1 x depth level, the first is the type
+				"INTERVENTION" : actToAdd.type, 
 				"idActGroup" : idActGroup
 			};
 
@@ -500,6 +508,7 @@ module.exports = function(app) {
 	// -----------
 
 	app.get('*', function(req, res) {
-		res.send('./index.html'); // load the single view file (angular will handle the page changes on the front-end)
+		// load the single view file (angular will handle the page changes on the front-end)
+		res.send('./index.html'); 
 	});
 }
